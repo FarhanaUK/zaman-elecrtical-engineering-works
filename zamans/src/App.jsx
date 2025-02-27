@@ -17,11 +17,15 @@ function App() {
 <p className='text-center text-green-500 text-xl mb-8'>Services for Domestic and Commercial Premisses</p>
 
 <div className="relative w-full">
-  <img src="/bg.png" className="w-full" />
-  <h1 className="absolute top-1/4 left-1/3 transform -translate-x-1/2 text-6xl font-bold text-gray-800 font-arsenal italic">
+  <img src="/bb.png" className="w-full" />
+
+  {/* Move "London Based" higher */}
+  <h1 className="absolute top-[10%] left-2/3 transform -translate-x-1/2 text-6xl font-bold text-gray-800 font-arsenal italic">
     London Based
   </h1>
-  <h1 className="absolute top-1/3 left-1/3 transform -translate-x-1/2 text-4xl mt-4 font-bold text-gray-800 font-arsenal italic">
+
+  {/* Keep "Affordable Solutions" in place */}
+  <h1 className="absolute top-[20%] left-2/3 transform -translate-x-1/2 text-4xl mt-4 font-bold text-gray-800 font-arsenal italic">
     Affordable Solutions
   </h1>
 </div>
