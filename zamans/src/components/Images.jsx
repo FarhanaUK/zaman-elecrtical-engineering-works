@@ -2,10 +2,10 @@ const Images = () => {
     return (
       <div>
         {/* First Image and Text Block */}
-        <div className="flex justify-center items-center flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 mt-12">
+        <div className="flex justify-center items-center flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 mt-12 bg-gray-200">
           <img
             src="/1.jpg"
-            className="rounded-lg shadow-lg w-2/5 md:w-1/3 h-auto object-cover"
+            className="mt-2 mb-2 rounded-lg shadow-lg w-2/5 md:w-1/3 h-auto object-cover"
           />
           <div className="text-center md:text-left max-w-xl space-y-4">
             <h1 className="text-2xl text-gray-900 font-arsenal font-bold">
@@ -18,10 +18,10 @@ const Images = () => {
         </div>
   
         {/* Second Image and Text Block with Image on Right */}
-        <div className="flex justify-center items-center flex-col md:flex-row-reverse space-y-6 md:space-y-0 md:space-x-12 mt-12 mb-12">
+        <div className="flex justify-center items-center flex-col md:flex-row-reverse space-y-6 md:space-y-0 md:space-x-12 mb-12 bg-gray-200">
           <img
             src="/4.jpg"
-            className="rounded-lg shadow-lg w-2/5 md:w-1/3 h-auto object-cover"
+            className="mt-2 mb-2 rounded-lg shadow-lg w-2/5 md:w-1/3 h-auto object-cover"
           />
           <div className="text-center md:text-left max-w-xl space-y-4">
             <h1 className="text-2xl text-gray-900 font-arsenal font-bold">
