@@ -6,7 +6,7 @@ const Footer = () => {
       <h2 className="font-bold">Contact:</h2>
       <p>07473 608236</p>
 
-      <p className="text-center pt-6">&copy; {new Date().getFullYear()} Developed By Farhana Aktar</p>
+      <p className="text-center pt-6 text-gray-500">&copy; {new Date().getFullYear()} Developed By Farhana Aktar</p>
     </div>
   )
 }
